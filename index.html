@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090a0b">
+  <meta name="description" content="Império das Próteses — laboratório de prótese dentária em São Luís–MA. Parceria para dentistas e clínicas, com atenção aos detalhes, qualidade e agilidade.">
+  <meta property="og:title" content="Império das Próteses | Excelência em cada detalhe">
+  <meta property="og:description" content="Seu laboratório parceiro em São Luís e região metropolitana.">
+  <meta property="og:type" content="website">
+  <title>Império das Próteses | Excelência em cada detalhe</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="page-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#inicio" aria-label="Império das Próteses — início">
+      <img src="logoronald2.png" alt="Logo Império das Próteses" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <span class="brand-fallback" aria-hidden="true">IP</span>
+      <span class="brand-copy"><strong>IMPÉRIO</strong><small>DAS PRÓTESES</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#sobre">O laboratório</a>
+      <a href="#solucoes">Soluções</a>
+      <a href="#processo">Como trabalhamos</a>
+      <a href="#contato" class="nav-cta">Seja parceiro <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-image" role="img" aria-label="Imagem conceitual de prótese dentária em ambiente de estúdio"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content shell">
+        <p class="eyebrow reveal"><i></i> LABORATÓRIO DE PRÓTESE DENTÁRIA · SÃO LUÍS — MA</p>
+        <h1 class="reveal">A excelência<br>está nos <em>detalhes.</em></h1>
+        <p class="hero-intro reveal">Um laboratório parceiro para dentistas que valorizam qualidade, agilidade e uma comunicação próxima em cada etapa do trabalho.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-gold" href="https://wa.me/5598985184656?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20Imp%C3%A9rio%20das%20Pr%C3%B3teses%20e%20conversar%20sobre%20uma%20parceria." target="_blank" rel="noopener">Vamos conversar <span>↗</span></a>
+          <a class="text-link" href="#solucoes">Conheça as soluções <span>↓</span></a>
+        </div>
+        <div class="hero-foot reveal"><span>01 / 04</span><span class="line"></span><span>PRECISÃO · CUIDADO · PARCERIA</span></div>
+      </div>
+      <div class="hero-side-label">IMPÉRIO DAS PRÓTESES</div>
+    </section>
+
+    <section class="intro-section section-pad" id="sobre">
+      <div class="shell intro-grid">
+        <div class="section-index reveal"><span>01</span><i></i><small>QUEM SOMOS</small></div>
+        <div class="intro-main">
+          <p class="eyebrow reveal">UMA PARCERIA QUE FAZ A DIFERENÇA</p>
+          <h2 class="reveal">Seu trabalho merece<br>um laboratório à <em>altura.</em></h2>
+          <div class="intro-bottom">
+            <p class="body-copy reveal">O Império das Próteses atua ao lado de dentistas e clínicas odontológicas, confeccionando soluções protéticas com atenção ao acabamento, à funcionalidade e à comunicação durante o processo.</p>
+            <a class="circle-link reveal" href="#contato" aria-label="Entre em contato"><span>↗</span></a>
+          </div>
+        </div>
+        <div class="intro-visual reveal">
+          <img src="ronaldfoto.jpeg" alt="Ronald Silva, responsável pelo Império das Próteses" onerror="this.parentElement.classList.add('image-missing');this.style.display='none'">
+          <div class="visual-placeholder"><span>RONALD SILVA</span><small>FOTO DO PROFISSIONAL</small></div>
+          <div class="visual-caption"><span>01</span><span>COMPROMISSO EM CADA ETAPA</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-bg"></div>
+      <div class="shell statement-inner">
+        <p class="eyebrow reveal">NOSSO COMPROMISSO</p>
+        <h2 class="reveal">Mais que um laboratório.<br><em>Uma parceria.</em></h2>
+        <p class="statement-copy reveal">Agilidade na entrega, qualidade no produto e diálogo direto com quem está na linha de frente do cuidado.</p>
+      </div>
+      <span class="statement-mark" aria-hidden="true">IP</span>
+    </section>
+
+    <section class="services-section section-pad" id="solucoes">
+      <div class="shell">
+        <div class="section-heading">
+          <div class="section-index reveal"><span>02</span><i></i><small>O QUE FAZEMOS</small></div>
+          <div>
+            <p class="eyebrow reveal">SOLUÇÕES PROTÉTICAS</p>
+            <h2 class="reveal">Técnica em cada peça.<br><em>Cuidado em cada detalhe.</em></h2>
+          </div>
+          <p class="heading-note reveal">Soluções para apoiar o planejamento e a reabilitação conduzidos pelo profissional dentista.</p>
+        </div>
+
+        <div class="service-feature reveal">
+          <div class="service-feature-image"></div>
+          <div class="service-feature-content">
+            <span class="feature-number">01 — DESTAQUE</span>
+            <h3>Próteses fixas<br><em>e unitárias</em></h3>
+            <p>Confecção de coroas unitárias, facetas e outras soluções fixas, conforme a indicação e o planejamento do dentista.</p>
+            <a class="text-link" href="#contato">Consultar um trabalho <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="service-list">
+          <article class="service-row reveal"><span class="service-no">02</span><h3>Próteses removíveis</h3><p>Alternativas protéticas confeccionadas de acordo com a necessidade de cada caso.</p><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-no">03</span><h3>Próteses totais</h3><p>Soluções totais para reabilitação, com atenção à adaptação e ao acabamento.</p><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-no">04</span><h3>Flexíveis e grampeadas</h3><p>Opções removíveis para diferentes planejamentos clínicos.</p><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-no">05</span><h3>Sobre implantes</h3><p>Confecção de próteses sobre implantes em parceria com o profissional responsável.</p><span class="service-arrow">↗</span></article>
+          <article class="service-row reveal"><span class="service-no">06</span><h3>Enceramento diagnóstico</h3><p>Etapa de apoio ao planejamento protético e à visualização do resultado proposto.</p><span class="service-arrow">↗</span></article>
+        </div>
+        <p class="service-disclaimer">A indicação, o planejamento e a instalação das próteses são conduzidos pelo cirurgião-dentista responsável. Consulte o laboratório para confirmar disponibilidade e prazo de cada serviço.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad">
+      <div class="shell">
+        <div class="gallery-heading">
+          <div><p class="eyebrow reveal">O UNIVERSO DA PRÓTESE</p><h2 class="reveal">O detalhe faz<br><em>toda a diferença.</em></h2></div>
+          <p class="heading-note reveal">Imagens conceituais ilustrativas. Em breve, esta galeria receberá registros autorais dos trabalhos e da rotina do laboratório.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-large reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1400&q=85" alt="Imagem conceitual de atendimento odontológico"><figcaption><span>01 / PRECISÃO</span><small>IMAGEM ILUSTRATIVA</small></figcaption></figure>
+          <figure class="gallery-item gallery-tall reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1000&q=85" alt="Imagem conceitual de ambiente odontológico"><figcaption><span>02 / CUIDADO</span><small>IMAGEM ILUSTRATIVA</small></figcaption></figure>
+          <figure class="gallery-item gallery-wide reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=85" alt="Imagem conceitual de profissional em ambiente odontológico"><figcaption><span>03 / PARCERIA</span><small>IMAGEM ILUSTRATIVA</small></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section section-pad" id="processo">
+      <div class="shell process-grid">
+        <div class="process-heading">
+          <div class="section-index reveal"><span>03</span><i></i><small>FLUXO DE TRABALHO</small></div>
+          <p class="eyebrow reveal">DO CONTATO À ENTREGA</p>
+          <h2 class="reveal">Um processo<br><em>próximo e claro.</em></h2>
+          <p class="body-copy reveal">A parceria começa com uma conversa. Alinhamos o trabalho, os detalhes necessários e a melhor forma de acompanhar cada solicitação.</p>
+        </div>
+        <div class="process-steps">
+          <article class="process-step reveal"><span>01</span><div><h3>Converse com o laboratório</h3><p>Apresente sua clínica e explique o tipo de trabalho que precisa realizar.</p></div></article>
+          <article class="process-step reveal"><span>02</span><div><h3>Alinhe os detalhes do caso</h3><p>Confirme materiais, informações técnicas, fluxo de envio e prazo com a equipe.</p></div></article>
+          <article class="process-step reveal"><span>03</span><div><h3>Acompanhe a produção</h3><p>Mantenha contato direto com o laboratório durante as etapas combinadas.</p></div></article>
+          <article class="process-step reveal"><span>04</span><div><h3>Receba em sua clínica</h3><p>Consulte as condições de entrega disponíveis para São Luís e região metropolitana.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="partnership">
+      <div class="partnership-image"></div>
+      <div class="shell partnership-content">
+        <p class="eyebrow reveal">PARA DENTISTAS E CLÍNICAS</p>
+        <h2 class="reveal">Vamos construir<br>uma boa <em>parceria?</em></h2>
+        <p class="reveal">Fale diretamente com Ronald e conheça o atendimento do Império das Próteses.</p>
+        <a class="button button-gold reveal" href="https://wa.me/5598985184656?text=Ol%C3%A1%2C%20sou%20dentista%20e%20quero%20conhecer%20as%20condi%C3%A7%C3%B5es%20de%20parceria%20com%20o%20Imp%C3%A9rio%20das%20Pr%C3%B3teses." target="_blank" rel="noopener">Quero ser parceiro <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contato">
+      <div class="shell contact-grid">
+        <div>
+          <div class="section-index reveal"><span>04</span><i></i><small>FALE CONOSCO</small></div>
+          <p class="eyebrow reveal">ATENDIMENTO DIRETO</p>
+          <h2 class="reveal">Seu próximo caso<br>começa com uma <em>conversa.</em></h2>
+          <p class="body-copy reveal">Entre em contato para tirar dúvidas, consultar serviços, alinhar prazos ou conversar sobre uma parceria.</p>
+        </div>
+        <div class="contact-card reveal">
+          <span class="contact-label">IMPÉRIO DAS PRÓTESES</span>
+          <a class="contact-whatsapp" href="https://wa.me/5598985184656" target="_blank" rel="noopener">+55 98 98518-4656 <span>↗</span></a>
+          <div class="contact-detail"><small>LOCALIZAÇÃO</small><p>São Luís e região metropolitana — MA</p></div>
+          <div class="contact-detail"><small>INSTAGRAM</small><p><a href="https://www.instagram.com/imperio_das_protessslz/" target="_blank" rel="noopener">@imperio_das_protesesslz ↗</a></p></div>
+          <a class="button button-outline" href="https://wa.me/5598985184656?text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Imp%C3%A9rio%20das%20Pr%C3%B3teses." target="_blank" rel="noopener">Iniciar conversa <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <a class="brand footer-brand" href="#inicio">
+        <img src="logoronald2.png" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <span class="brand-fallback" aria-hidden="true">IP</span>
+        <span class="brand-copy"><strong>IMPÉRIO</strong><small>DAS PRÓTESES</small></span>
+      </a>
+      <p>Seu laboratório parceiro.<br>Sua confiança em cada entrega.</p>
+      <a class="back-top" href="#top">VOLTAR AO TOPO ↑</a>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="year"></span> Império das Próteses</span><span>São Luís — Maranhão</span><span>DESENVOLVIDO COM ATENÇÃO AOS DETALHES</span></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/5598985184656?text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Imp%C3%A9rio%20das%20Pr%C3%B3teses." target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.8 11.8 0 0 0 12.12 0C5.58 0 .25 5.33.25 11.87c0 2.09.55 4.13 1.6 5.93L.15 24l6.36-1.67a11.9 11.9 0 0 0 5.6 1.42h.01c6.54 0 11.87-5.33 11.87-11.87a11.8 11.8 0 0 0-3.47-8.4ZM12.12 21.7a9.86 9.86 0 0 1-5.03-1.38l-.36-.21-3.77.99 1.01-3.67-.23-.38a9.82 9.82 0 0 1-1.5-5.18c0-5.45 4.44-9.89 9.9-9.89a9.83 9.83 0 0 1 7 2.9 9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.89-9.9 9.89Zm5.43-7.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.8-1.49-1.78-1.66-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.08-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg>
+  </a>
+</body>
+</html>
